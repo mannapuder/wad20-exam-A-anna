@@ -1,6 +1,6 @@
 <template>
   <div id="main">
-    <button @click="handleOrder">{{"Newest to oldest"}}</button>
+    <button @click="handleOrder">{{"Newest to Oldest"}}</button>
     <ul :style="{ 'flex-direction' : isReversed? 'column-reverse' : 'column'}" id="entries">
         <li class="entry" v-for="entry in sortedEntries" :key="entry.id">
           <h3>{{entry.title}}</h3>
