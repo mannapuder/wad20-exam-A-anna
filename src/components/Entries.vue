@@ -42,7 +42,7 @@
 
       filters: {
         dateFormat: function (value) {
-          return moment(value).format("dddd, MMMM D, YYYY hh:mm A");
+          return moment(value).format("dddd, MMMM D, YYYY h:mm A");
         }
       }
     }
